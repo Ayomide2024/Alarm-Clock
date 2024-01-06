@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+img{
+    width: 200px !important;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: blue;
+    border: none;
+    border-radius:10px;
+    height: 100vh;
+}
+.container{
+    background-color: white;
+    height: 150vh;
+}
+span{
+    color: white;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="shortcut icon" href="A.png" type="image/x-icon">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="container2 mt-5">
+        <img src="alarm-5961342_1280.png" alt="clock" class="img-fluid"> 
+    <div class="row">
+        <span id="displayHr"></span>
+        <span id="displayMin"></span> 
+        <span id="displaySec"></span>
+    </div>
+        <div class="row"> 
+        <div class="col-md-4 col-sm-4">
+            <input type="text" id="inputHr" placeholder="Hour" class="form-control">
+        </div>
+        <div class="col-md-4 col-sm-4">
+            <input type="text" id="inputMin" placeholder="Minutes" class="form-control">
+        </div>
+        <div class="col-md-4 col-sm-4">
+            <input type="text" id="inputSec" placeholder="Seconds" class="form-control">
+        </div>
+    </div>
+    <div class="row mt-2">
+        <button onclick="setAlarm()" class="btn btn-outline-warning">Set Alarm</button>
+        <button onclick="stopAlarm()" class="btn btn-outline-warning">Stop Alarm</button>
+    </div>
+    </div>
+</div>
+<script src="main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
